@@ -1,0 +1,16 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "jsx": "preserve",
+    "removeComments": true,
+    "sourceMap": true,
+    "outDir": "app",
+    "rootDir": "src",
+    "watch": true
+  },
+  "exclude":[
+    "node_modules"
+  ]
+}
