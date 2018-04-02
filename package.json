@@ -3,13 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "node app/server.js"
+    "start": "typescript && node app/server.js"
   },
   "dependencies": {
     "body-parser": "^1.17.1",
     "cookie-parser": "^1.4.3",
     "express": "^4.15.2",
-    "express-react-views": "^0.10.0",
+    "express-react-views": "~0.10.5",
     "http-proxy": "^1.16.2",
     "morgan": "^1.8.1",
     "react": "^16.2.0",
@@ -24,6 +24,9 @@
     "@types/http-proxy": "^1.12.4",
     "@types/morgan": "^1.7.32",
     "@types/node": "^7.0.10",
-    "@types/serve-favicon": "^2.2.28"
+    "@types/serve-favicon": "^2.2.28",
+    "pm2": "^2.10.2",
+    "ts-node": "^5.0.1",
+    "tsc": "^1.20150623.0"
   }
 }

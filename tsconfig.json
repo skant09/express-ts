@@ -3,7 +3,7 @@
   "compilerOptions": {
     "target": "es6",
     "module": "commonjs",
-    "jsx": "preserve",
+    "jsx": "react",
     "removeComments": true,
     "sourceMap": true,
     "outDir": "app",

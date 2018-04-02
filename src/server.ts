@@ -2,7 +2,7 @@
 /**
  * Module dependencies.
 */
-
+require('ts-node');
 import app from './expressConfig';
 import * as http from 'http';
 
